@@ -1,0 +1,410 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* color: white; */
+    font-family: Arial;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+/* nav bar */
+/* first box */
+.logo{
+    height: 50px;
+    width: 115px;
+}
+.border{
+    border: 1.5px transparent solid;
+}
+.amazon{
+    width: 115px;
+    height: 50px;
+    background-image: url(amzlo.png);
+    background-size: cover;
+    
+}
+.border:hover{
+    border: 1.5px white solid;
+}
+/* secound box */
+.navadd{
+    height: 50px;
+    width: 100px;
+   
+}
+.addlogo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 25px;
+}
+.addwr{
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+.first{
+    color:#cccccc;
+    font-size: 0.85rem;
+}
+.second{
+    font-size: 1rem;
+}
+/* third box */
+.navser{
+    width: 750px;
+    height: 40px;
+    display: flex;
+}
+.drop{
+    width: 50px;
+    color:#0F1111;
+    background-color: #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.txt{
+    width: 100%;
+    font-size: 1em;
+    border: none;
+}
+.sericon{
+    width: 50px;
+    background-color:rgb(255, 139, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+    font-size: 1.2em;
+    color: #0F1111;
+}
+.navser:hover{
+    border: 2px solid orange;
+}
+/* fourth box */
+.navlan{
+    width: 80px;
+    height: 20px;
+    display: flex;
+    background-color: #0F1111;
+}
+.flag{
+    height: 100%;
+    width: 35px;
+    background-image: url(ind.jpeg);
+    background-size: cover;
+}
+.lansel{
+    height: 100%;
+    width: 45px;
+    color: #0F1111;
+    
+}
+/* fifth and sixth box */
+.navfifth{
+    width: 115px;
+    height: 30px;
+}
+.fione{
+    height: 15px;
+    width: 100%;
+    font-size: 0.7rem;
+}
+.fitwo{
+    height: 15px;
+    width: 100%;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.sixth{
+    width: 70px;
+}
+/* seventh box */
+.navcart{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.seven{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* pannel */
+.pannel{
+    background-color: #222f3d;
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.panone{
+    
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 70px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    justify-content: center;
+}
+.pantwo{
+    height: 35px;
+    width: 1150px;
+    display: flex;
+    align-items: center;
+}
+.twoone{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.twotwo{
+    width:140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.twothree{
+    width: 75px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.twofour{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.twofive{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.panthree{
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+/* hero section */
+.hero{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.heromsg{
+    width: 1400px;
+    background-color:white;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: rgb(22, 178, 250)
+}
+/* shop section */
+.shopsec{
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.box{
+    width: 23%;
+    height: 420px;
+    background-color: white;
+}
+/* headphone */
+
+.cont1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.hpimg{
+    height: 300px;
+    width: 300px;
+    background-image: url(headphone.jpg);
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* secound box */
+.img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.img1{
+    width: 140px;
+    height: 140px;
+    background-image: url(home1.jpg);
+    background-size: cover;
+}
+.img2{
+    width: 140px;
+    height: 140px;
+    background-image: url(home2.jpg);
+    background-size: cover;
+}
+.img3{
+    width: 140px;
+    height: 140px;
+    background-image: url(home3.jpg);
+    background-size: cover;
+}
+.img4{
+    width: 140px;
+    height: 140px;
+    background-image: url(home4.jpg);
+    background-size: cover;
+}
+/* third box */
+.img31{
+    width: 140px;
+    height: 140px;
+    background-image: url(gift1.jpg);
+    background-size: cover;
+}
+.img32{
+    width: 140px;
+    height: 140px;
+    background-image: url(gift2.jpg);
+    background-size: cover;
+}
+.img33{
+    width: 140px;
+    height: 140px;
+    background-image: url(gift3.jpg);
+    background-size: cover;
+}
+.img34{
+    width: 140px;
+    height: 140px;
+    background-image: url(gift4.jpg);
+    background-size: cover;
+}
+/* fourt box */
+.img41{
+    height: 300px;
+    width: 300px;
+    background-image: url(laptop.jpg);
+    background-size: cover;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* row2 */
+.row2{
+    margin-top: 20px;
+}
+/* box6 */
+.img61{
+    width: 140px;
+    height: 140px;
+    background-image: url(ele1.jpg);
+    background-size: cover;
+}
+.img62{
+    width: 140px;
+    height: 140px;
+    background-image: url(ele2.jpg);
+    background-size: cover;
+}
+.img63{
+    width: 140px;
+    height: 140px;
+    background-image: url(ele3.jpg);
+    background-size: cover;
+}
+.img64{
+    width: 140px;
+    height: 140px;
+    background-image: url(ele4.jpg);
+    background-size: cover;
+}
+.click{
+    width: 300px;
+    height: 300px;
+}
+.fot1{
+    width: 100%;
+    height: 30px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot2{
+    width: 100%;
+    height: 300px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+}
+.par{
+    color: white;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.anc{
+    display: block;
+    color: white;
+    font-size:0.85rem;
+    margin-top: 10px;
+}
+.fot3{
+    width: 100%;
+    height: 60px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot4{
+    width: 100%;
+    height:30px;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: center;
+    
+}
